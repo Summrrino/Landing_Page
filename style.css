@@ -62,3 +62,113 @@ body {
   /* ----------------- */
   /* Flexbox time - Use for example as needed */
 
+  .top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+  }
+
+  .nav-bar{
+    margin-right: 300px;
+  }
+  
+  .logo-div, .nav-bar *{
+    margin-left: 100px;
+  }
+
+  .hero{
+    padding: 20px 0 100px 0px;
+
+  }
+
+  .hero-container{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hero-text-container{
+    width: 500px;
+  }
+
+ .hero-text-container *{
+    margin: 10px auto;
+ }
+
+ .services h2{
+    text-align: center;
+ }
+
+ .services-flexbox{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .services-container{
+    text-align: center;
+    width: 210px;
+    margin: 20px 0;
+ }
+
+ .services-box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin: 0 auto;
+ }
+
+ article > p{
+    margin: 5px 0;
+ }
+
+ /*Max-width for all child divs*/
+
+ section > div{
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+
+ .quote-container{
+    height: 40vh;
+    place-content: center;
+    
+ }
+
+ #author{
+    display: flex;
+    flex-direction: row-reverse;
+    font-style: normal;
+ }
+
+ .cta-container{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: 20px;
+ }
+
+ .cta-text-container{
+    font-size: 1.2rem;
+ }
+
+ footer{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+ }
+
+ a{
+    text-decoration: none;
+    color: white;
+ }
+
+ footer a{
+    color: #3882f6;
+ }
