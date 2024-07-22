@@ -1,0 +1,64 @@
+html{
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0 0;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  header,.hero,footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+  }
+
+  .hero-heading{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+  }
+
+  .quote{
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+  }
+
+  .hero-subheading{
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+
+  button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+
+  #normal{
+    font-weight: bold;
+    border: none;
+  }
+
+  #inverted{
+    font-weight: bold;
+    border-color: white;
+  }
+
+  .temp-image{
+    width: 500px;
+    height: 200px;
+    background-color: #04da28;
+  }
+
+  /* ----------------- */
+  /* Flexbox time - Use for example as needed */
+
